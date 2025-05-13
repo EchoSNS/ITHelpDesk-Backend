@@ -1,0 +1,19 @@
+## Build Folders ##
+bin/
+obj/
+publish/
+TestResults/
+
+## VS and IDE-specific ##
+.vs/
+*.user
+*.suo
+
+## Frontend (if using Node.js) ##
+node_modules/
+
+## Others ##
+*.log
+*.db
+*.DS_Store
+*.lock
