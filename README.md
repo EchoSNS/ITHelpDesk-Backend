@@ -3,15 +3,9 @@
 Help Desk Backend source code using ASP.NET Core (.NET 8)
 
 This is the **backend** of the Help Desk System built with **ASP.NET Core 8 Web API**.  
-It provides APIs for managing tickets, users, departments, and more — integrated with **Angular 19 SSR** frontend.
+It provides APIs for managing tickets, users, departments, and more.
 
 ---
-
-## 🏛️ Architecture Overview
-
-```plaintext
-Client (Angular 19) ⇄ API Gateway (ASP.NET 8 Web API) ⇄ Services ⇄ Repositories ⇄ SQL Server
-```
 
 ## ⚙️ Technologies Used
 
@@ -20,7 +14,6 @@ Client (Angular 19) ⇄ API Gateway (ASP.NET 8 Web API) ⇄ Services ⇄ Reposit
 - JWT Bearer Authentication
 - SQL Server
 - SMTP for Emails
-- (Optional) Itexmo for SMS Integration
 
 ## 🛠️ Backend Setup
 
@@ -31,7 +24,7 @@ Client (Angular 19) ⇄ API Gateway (ASP.NET 8 Web API) ⇄ Services ⇄ Reposit
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EchoSNS/AviorITHelpDesk_Backend.git
+   git clone https://github.com/EchoSNS/ITHelpDesk_Backend.git
    ```
 
 2. Navigate to the backend folder:
